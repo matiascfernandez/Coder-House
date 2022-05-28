@@ -100,6 +100,7 @@
 }
 
 .main__section3{
+    width: 100%;
     margin:auto;
     padding: 4em;
     flex-wrap: wrap;
@@ -115,7 +116,18 @@
     text-align: center;
 }
 
+.imagenes__contenedor{
+    display: flex;
+    display: inline-block;
+}
+
+.imagenes__div{
+    display: flex;
+    display: inline-block;
+}
+
 .imagenes:hover{
+    transform: scale(1.2);
     margin: 2%;
 }
 
@@ -330,7 +342,6 @@
     padding: 1em;
     background-color: rgba(34, 34, 59, 0.459);
     color: rgb( 242, 233, 228);
-    width: 20%;
     margin: auto;
     padding: auto;
     text-align: center;
@@ -338,6 +349,11 @@
     flex-direction: column; 
     justify-content: center
 
+}
+
+.card-title{
+    margin: auto;
+    padding: 1em;
 }
 
 .serviciosmain__section2__img {
